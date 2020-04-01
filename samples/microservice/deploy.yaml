@@ -30,7 +30,7 @@ services:
   frontend:
     image: endgamefrontend:v1
     ports:
-      - 80:5000
+      - 8089:5000
     links:
       - backend
 
